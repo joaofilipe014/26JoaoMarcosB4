@@ -9,6 +9,5 @@ public class Main {
         Fabrica fabricaIOS = new FabricaIOS();
         Aplicacao appIOS = new Aplicacao(fabricaIOS);
         appIOS.renderizar();
-
     }
 }
